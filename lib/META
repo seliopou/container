@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: e550f1c6a9490eaf4033c10a474c60df)
+version = "0.0.1"
+description = "Game logic for the Container board game"
+requires = "ppx_deriving.show result"
+archive(byte) = "container.cma"
+archive(byte, plugin) = "container.cma"
+archive(native) = "container.cmxa"
+archive(native, plugin) = "container.cmxs"
+exists_if = "container.cma"
+# OASIS_STOP
+

@@ -1,0 +1,14 @@
+OASISFormat: 0.4
+Name:        container
+Version:     0.0.1
+Synopsis:    Game logic for the Container board game
+Authors:     Spiros Eliopoulos <seliopou@gmail.com>
+Maintainers: Spiros Eliopoulos <seliopou@gmail.com>
+License:     PROP
+Plugins:     META (0.4), DevFiles (0.4)
+BuildTools:  ocamlbuild
+
+Library container
+  Path:             lib
+  BuildDepends:     ppx_deriving.show, result
+  Modules:          Container
